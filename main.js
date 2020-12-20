@@ -1,4 +1,9 @@
 const Discord = require('discord.js');
+const express = require('express');
+
+var app = express()
+
+app.set('port', (process.env.PORT || 5000));
 
 const client = new Discord.Client();
 
