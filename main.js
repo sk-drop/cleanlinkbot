@@ -25,7 +25,6 @@ client.on('message', message => {
     if(command === "ping"){
         message.channel.send("pong!")
     } else if (command === "link"){
-        message.delete()
         message.channel.send({embed: {
             color: 3447003,
             title: title,
