@@ -44,6 +44,9 @@ client.on('message', message => {
             },{
                 name: "Wie?",
                 value: "Gib einfach *!link (url) (title)* ohne Klammern ein und der Link wird als dein selbstgewählter Titel dargestellt!"
+            },{
+                name: "Warum??",
+                value: "Diese Frage bitte an Eggobertus Dactylus"
             }],
             timestamp: new Date(),
             footer: {
