@@ -51,4 +51,4 @@ client.on('message', message => {
 
 });
 
-client.login("insert_token_here);
+client.login(process.env.token);
